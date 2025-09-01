@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Form</title>
+    </head>
+    <body>
+        
+        <fieldset>
+        <legend>Personal Information</legend>
+     <label for="fullname">Full Name: </label>  
+        <input type="text"
+        required 
+        id="fullname" 
+        name="fullname" 
+        placeholder="Enter Name"
+        maxlength="50"
+         >
+    <br>    
+    <label for="email">Email Address:</label>  
+        <input type="text"
+        required 
+        id="Email" 
+        name="email" 
+        placeholder="Enter Email Address"
+        maxlength="25"
+         >
+         <br>
+
+    <label for="birthdate">Birth Date:</label>  
+        <input type="date" 
+        id="birthdate" 
+        name="birthdate" >
+        </fieldset>
+        <fieldset>
+        <legend>Account Details</legend>
+    <label for="username">Username: </label>  
+        <input type="text" 
+        id="username" 
+        name="username" 
+        placeholder="Enter Username"
+        maxlength="25" >
+        <br> 
+        <label for="password">Password: </label>  
+        <input type="password" 
+        id="passsword" 
+        name="password" 
+        placeholder="Enter Password"
+        maxlength="25" >
+        </fieldset>
+        <fieldset>
+        <legend>Preferences</legend>
+        <label for="subscriptionplan">Subcription Plan:</label>
+        <select id="subscriptionplan" name="subscriptionplan">
+            <option value="">Select A Subscription</option>
+            <option value="fr">Free Trial</option>
+            <option value="we">Week Offer</option>
+            </select>
+       
+            <p>Notification Preferences</p>
+
+            
+            <input type="checkbox" id="email" name="notificationpreferences" value="email">
+            <label for="email">Email</label>
+            <input type="checkbox" id="sms" name="notificationpreferences" value="sms">
+            <label for="sms">SMS</label>
+            <input type="checkbox" id="pushnotification" name="notificationpreferences" value="pushnotification">
+            <label for="pushnotification">Push Notification</label>
+            </fieldset>
+             <fieldset>
+            <legend>Additiona Information</legend>
+            <label for="briefbox">Brief Box:</label>
+            <textarea id="briefbox" name="briefbox" rows="5" cols="30"> </textarea>
+          
+           <p>How did you hear about us</p>
+            
+         <input type="radio" id="socialmedia" value="socialmedia" name="hear about us">
+         <label for="socialmedia">Social Media</label>
+         <input type="radio" id="friend" value="friend" name="hear about us">
+         <label for="friend">Friends</label>
+         <input type="radio" id="searchengine" value="searchengine" name="hear about us">
+         <label for="searchengine">Search Engine</label>
+        <input type="radio" id="other" value="other" name="hear about us">
+         <label for="other">Other</label> 
+         </fieldset>
+
+</body>
+</html>

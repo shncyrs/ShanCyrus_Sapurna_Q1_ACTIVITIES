@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>Enrollment Form</title>
+    </head>
+    <body>
+        <h3>BASIC EDUCATION ENROLLMENT FORM</h3>
+<h5> THIS FORM IS NOT FOR SALE</h5>
+<fieldset>
+<label for="schoolyear">School Year</label>
+<input type="text" required
+id="schoolyear"
+name="schoolyear"
+placeholder="Enter Your schoolyear"
+maxlength="10"> 
+<br>
+<label for="greadeleveltoenroll">Grade Level to Enroll</label>
+<input type="number" required
+id="greadeleveltoenroll"
+name="greadeleveltoenroll"
+placeholder="Enter Your Grade Level"
+maxlength="10"> 
+
+<fieldset> 
+<p>check the appropriate box only</p>
+<ol>
+    <li>With LRN <input type="radio" id="withLRN_YES" value="yes" name="WIthLRN"><label for="withLRN_YES">Yes</label><input type="radio" id="withLRN_NO" value="NO" name="WIthLRN"><label for="withLRN_NO">No</label></li>
+    <li>Returning (Balik-aral) <input type="radio" id="RETURNING_YES" value="yes" name="returning"><label for="RETURNING_YES">Yes</label><input type="radio" id="RETURNING_NO" value="NO" name="returning"><label for="RETURNING_NO">No</label></li>
+</ol>
+</fieldset>
+
+<h3>INSTRUCTIONS:</h3>
+
+<h5>Print Legibly all information required in CAPITAL letters.Submit accomplished form to the Person-in-Charge/Class Adviser. Use black or blue pen only. </h5>
+
+       <fieldset>
+<legend> LEARNER INFORMATION</legend>
+
+<label for="PSA">PSA Birth Certificate NO. (if available upon registration) </label>  
+        <input type="text" 
+        id="PSA" 
+        name="PSA" 
+        placeholder="Enter Birth Certificate No."
+        maxlength="50" >
+<br>
+<label for="lastname"> (LRN)Last Name </label>  
+        <input type="text" 
+        id="lastname" 
+        name="lastname" 
+        placeholder="Enter Last Name."
+        maxlength="25" >
+<br>
+<label for="firstname"> First Name </label>  
+        <input type="text" 
+        id="firstname" 
+        name="fristname" 
+        placeholder="Enter First Name."
+        maxlength="20" >
+<br>
+<label for="middlename"> Middle Name </label>  
+        <input type="text" 
+        id="middlename" 
+        name="middlename" 
+        placeholder="Enter Middle Name."
+        maxlength="20" >
+<br>     
+<label for="extentionname"> Extention Name e.g Jr, Sr,III(if applicable) </label>  
+        <input type="text" 
+        id="extentionname" 
+        name="extentionname" 
+        placeholder="Enter Extention Name."
+        maxlength="20" >
+<br>
+<label for="learnernumber">Learner Number</label>  
+        <input type="number" 
+        id="learnernumber" 
+        name="learnernumber" 
+        placeholder="Enter Learner Number."
+        maxlength="20" >
+ <br>      
+ <label for="birth">Birth</label>  
+        <input type="date" 
+        id="birth" 
+        name="birth" 
+       >
+ <br>
+ <label for="sex">Sex</label>
+        <select id="sex" name="sex">
+            <option value="">Select A Gender</option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            </select>
+ <br>
+ <label for="age">Age</label>  
+        <input type="number" 
+        id="age" 
+        name="Age" 
+        placeholder="Enter Age"
+        min="1" max="120" step="2"
+        >
+<br>
+<label for="placeofbirth"> Place Of Birth </label>  
+        <input type="text" 
+        id="placeofbirth" 
+        name="placeofbirth" 
+        placeholder="Enter Place Of Birth"
+        maxlength="50" >
+<br>
+<label for="mothertongue"> Mother Tongue </label>  
+        <input type="text" 
+        id="mothertongue" 
+        name="mothertongue" 
+        placeholder="Enter Mother Tongue"
+        maxlength="25" >
+
+
+        <p>Belonging to any Indigenous People(IP) Community/Indigenous Cultural Community</p>
+        <input type="radio" id="IP_YES" value="yes" name="IP"><label for="IP_YES">Yes</label>
+        <input type="radio" id="IP_NO" value="NO" name="IP"><label for="IP_NO">No</label>
+
+
+<label for="specify">if yes, please specify</label>
+<input type="text" required
+id="specify"
+name="specify"
+placeholder="Indigenous Community"
+maxlength="10"> 
+</fieldset>
+<p> is your family a beneficiary of the 4Ps?</p>
+<input type="radio" id="4Ps_YES" value="yes" name="4Ps"><label for="4Ps_YES">Yes</label>
+<input type="radio" id="4Ps_NO" value="NO" name="4Ps"><label for="4Ps_NO">No</label>
+
+<fieldset>
+            <label name="hasdisability">is the child a Learner with Disability</label>
+            <input type="checkbox" id="IP_YES" name="yes" value="IP_YES">
+            <label for="IP_YES">Yes</label>
+            <input type="checkbox" id="online" name="apply" value="online">
+            <label for="online">No</label>
+
+            <p>If yes specify the type of Disability?</p>
+
+            <input type="checkbox" id="visual" name="apply" value="visual">
+            <label for="visual">Visual Impairment</label>
+            <input type="checkbox" id="hearing" name="apply" value="hearing">
+            <label for="hearing">Hearing Impairment</label>
+            <input type="checkbox" id="learning" name="apply" value="learning">
+            <label for="learning">Learning Disability</label>
+            <input type="checkbox" id="intellectual" name="apply" value="intellectual">
+            <label for="intellectual">Intellectual Disability</label>
+             <br>
+              <input type="checkbox" id="Disability" name="Disability" value="Disability">
+            <label for="Disability">a Disability</label>
+            <input type="checkbox" id="autism" name="autism" value="autism">
+            <label for="autism">Autism Spectrum Disorder</label>
+            <input type="checkbox" id="emotional" name="emotional" value="emotional">
+            <label for="emotional">Emotional Behavior Disorder</label>
+            <input type="checkbox" id="orthopedic" name="orthopedic" value="orthopedic">
+            <label for="orthopedic">Orthopedic Physical Handicap</label>
+            <br>
+            <input type="checkbox" id="lowvision" name="lowvision" value="lowvision">
+            <label for="lowvision">b Low Vision</label>
+            <input type="checkbox" id="speech" name="speech" value="speech">
+            <label for="speech">Speech Language Disorder</label>
+            <input type="checkbox" id="cerebral" name="cerebral" value="cerebral">
+            <label for="cerebral">Cerebral Palsy</label>
+            <input type="checkbox" id="healthproblem" name="healthproblem" value="healthproblem">
+            <label for="healthproblem">Special Health Problem Chronic Disease</label>
+            <label for="intellectual">Intellectual Disability</label>
+             <br>
+              <input type="checkbox" id="multiple" name="multiple" value="multiple">
+            <label for="multiple">Multiple Disorder</label>
+            <input type="checkbox" id="cancer" name="cancer" value="cancer">
+            <label for="cancer">a. Cancer</label>
+</fieldset>
+
+<hr>
+<p><b>Current Address</b></p>
+<hr>
+
+                <input type="text" placeholder="House No:">
+                <input type="text" placeholder="Sitio/Street Name:">
+                <input type="text" placeholder="Baranggay:">
+                <br>
+                <input type="text" placeholder="Municipality/City"> 
+                <input type="text" placeholder="Province">
+                <input type="text" placeholder="Country">
+                <input type="text" placeholder="Zip Code"> 
+<br>
+<hr>
+  <label name="permanentaddress"><b>PERMANENT ADDRESS</b> Same as Current Address: </label>
+   <input type="radio" id="IP_YES" name="yes" value="IP_YES">
+            <label for="IP_YES">Yes</label>
+            <input type="radio" id="online" name="apply" value="online">
+            <label for="online">No</label>
+            <br>
+            <hr>
+                <input type="text" placeholder="House No:">
+                <input type="text" placeholder="Sitio/Street Name:">
+                <input type="text" placeholder="Baranggay:">
+                <br>
+                <input type="text" placeholder="Municipality/City"> 
+                <input type="text" placeholder="Province">
+                <input type="text" placeholder="Country">
+                <input type="text" placeholder="Zip Code"> 
+                
+`
+<hr>
+       <h4> PARENTS GUARDIAN'S INFORMMATION</h4>
+<hr>       
+        <fieldset>
+          <p><b> Father's Name</b></p>
+          <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Middle Name">
+                <input type="text" placeholder="Contact Name">
+                <br><p><b> Mother's Name</b></p>
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Middle Name">
+                <input type="text" placeholder="Contact Name">
+                <br><p><b>Legal Guardian's Name</b></p>
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Middle Name">
+                <input type="text" placeholder="Contact Name">
+        </fieldset>
+        <hr>
+        <p><b>For Returning Learner(Balik-Aral)and Those Who Will Transfer/Move in</b></p>
+        <hr>
+        <label for="Gradelevel">Last Grade Level Completed</label>
+        <input type="text" required
+        id="gradelevel"
+        name="gradelevel"
+        placeholder="Last Grade Level Completed"
+        maxlength="10"> 
+        <label for="schoolyear">Last School Year Completed</label>
+        <input type="text" required
+        id="schoolyear"
+        name="schoolyear"
+        placeholder="Last School Year Completed"
+        maxlength="10">
+<BR>
+        <label for="SchoolAttended">Last School Attended</label>
+        <input type="text" required
+        id="SchoolAttended"
+        name="SchoolAttended"
+        placeholder="Last School Attended "
+        maxlength="25"> 
+        <label for="schoolid">School ID</label>
+        <input type="text" required
+        id="schoolid"
+        name="schoolid"
+        placeholder="School ID"
+        maxlength="10"> 
+        <hr>
+        <p><b>For Learner in Senior High School</b></p>
+        <hr>
+         <label name="semester">Semester</label>
+        <input type="radio" id="IP_1st" value="IP_1st" name="IP"><label for="IP_1st">1st</label>
+        <input type="radio" id="IP_2nd" value="IP_2nd" name="IP"><label for="IP_2nd">2nd</label>
+
+        <label for="track">Track</label>
+        <input type="text" required
+        id="track"
+        name="track"
+        placeholder="Track"
+        maxlength="20"> 
+
+<label for="strand">Strand</label>
+        <input type="text" required
+        id="strand"
+        name="strand"
+        placeholder="Strand"
+        maxlength="20"> 
+        <fieldset>
+
+                <p><b>If school will implement other distance learning modalities aside from face-to-face instruction, what would you prefer for your child?</b></p>
+        
+                <p>choose all that apply:</p>
+                <input type="checkbox" id="modular" name="apply" value="modular">
+            <label for="modular">Modular(Print)</label>
+            <input type="checkbox" id="online" name="apply" value="online">
+            <label for="online">Online</label>
+            <input type="checkbox" id="radiobased" name="apply" value="radiobased">
+            <label for="radiobased">Radio-Based instruction</label>
+            <input type="checkbox" id="blended" name="apply" value="blended">
+            <label for="blended">Blended</label>
+             <br>
+              <input type="checkbox" id="modular" name="apply" value="modular">
+            <label for="modular">Modular(Digital)</label>
+            <input type="checkbox" id="EducationTelevision" name="apply" value="EducationTelevision">
+            <label for="EducationTelevision">Education Television</label>
+            <input type="checkbox" id="homeschooling" name="apply" value="homeschooling">
+            <label for="homeschooling">Home Schooling</label>
+        </fieldset>
+ <p> I bereby certify that the above information given are true and correct to the best of my knowledge and I allow the Department of Education to use my child's details to create and/or update his/her learner
+    profile in the Learner Information System. The information here in shall be treated as confidental with the Data Privacy Act of 2012.    
+ </p>
+
+<label for="signature">Signature Over Printed Name of Parent/Guardian</label>
+        <input type="text" required
+        id="signature"
+        name="signature"
+        placeholder="Signature and Name of Parent"
+        maxlength="50"> 
+<br>
+         <label for="date">Date</label>  
+        <input type="date" 
+        id="date" 
+        name="date" 
+       >
+</body>
+</html>
+</fieldset>
